@@ -34,3 +34,8 @@ edges_from_vertices: The keys are the vertices of the mesh and for each key the 
 faces_from_edges : The keys are the edges of the mesh and for each edge the value is the list of faces that are bordered by that edge (2 faces for each edge)
 
 To see the content of these two dictionaries use the function printPolyhedronStats().
+
+The result of running the script SphereTessellater.py is the pov-ray file of the mesh that will be printed to standard output. Pipe the output to a file and use pov-ray to render it:
+
+./SphereTesselater.py > mesh.pov
+
