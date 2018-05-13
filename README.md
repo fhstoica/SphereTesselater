@@ -3,7 +3,7 @@ How to tessellate a sphere with triangles
 
 This project consists of two python scripts that will generate a tessellation of the sphere starting from the inscribed icosahedron. The end results is a pov-ray file that can be used to generate an image of the resulting mesh. 
 
-We start out with the initial icosahedron and we assign Ids to the vertices which are simply integers from 0 to 11. The Id of each vertex is also used in identifying the edges and the faces of the icosahedron. 
+We start out with the initial icosahedron and we assign Ids to the vertices which are simply integers from 0 to 11. The Id of each vertex is also used in identifying the edges and the faces of the icosahedron. When we refine the mesh we assing Ids to the new vertices starting with the largest Id of the vertices of the previous mesh.
 
 We then refine this initial mesh by adding a vertex in the middle of each edge. The coordinates of the added vertices are then rescaled to place the new vertices on the same sphere as the original vertices. The original edges are replaced by the new edges, and new ones are added to connect the middle points of the edges of each face. 
 
