@@ -37,5 +37,5 @@ To see the content of these two dictionaries use the function printPolyhedronSta
 
 The result of running the script SphereTessellater.py is the pov-ray file of the mesh that will be printed to standard output. Pipe the output to a file and use pov-ray to render it:
 
-./SphereTesselater.py > mesh.pov
+./SphereTessellater.py > mesh.pov
 
