@@ -18,6 +18,7 @@ This is done by the refineMesh() method of the SphereTessellater class. The inpu
     .
     
 Please keep in mind that the number of vertices, edges and faces grows exponentially with the number of refinements:
+
      1  Vertices: 12    Faces: 20    Edges: 30
      2  Vertices: 42    Faces: 80    Edges: 120
      3  Vertices: 162   Faces: 320   Edges: 480
